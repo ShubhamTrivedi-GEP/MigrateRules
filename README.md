@@ -99,7 +99,7 @@ If you get an error related to ChromeDriver:
 
 **Shubham Trivedi**  
 🚀 Passionate about automation and software testing.  
-📧 Reach me at: [shubham@example.com](mailto:shubham@example.com)
+📧 Reach me at: [shubham.trivedi@gep.com](mailto:shubham.trivedi@gep.com)
 
 ## 📝 License
 
