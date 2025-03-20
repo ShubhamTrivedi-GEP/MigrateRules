@@ -12,8 +12,8 @@ UPLOAD_FILE_PATH = "utils/upload/rules.json"
 
 # Define users list (Modify as needed)
 users = [
-    {"username": "user1@example.com", "password": "password1", "clientName": "clientA"},
-    {"username": "user2@example.com", "password": "password2", "clientName": "clientB"},
+    {"username": "leosmb.admin@gep.com", "password": "+5ndIgsP9uI", "clientName": "leosmb"},
+    # {"username": "user2@example.com", "password": "password2", "clientName": "clientB"},
 ]
 
 # XPaths
@@ -30,6 +30,7 @@ for user in users:
     driver.maximize_window()
     
     upload_file = os.path.abspath(UPLOAD_FILE_PATH)
+    print(upload_file)
     print(f"\nStarting automation for: {user['username']} - Client: {user['clientName']}")
     
     # Step 1: Open login page
