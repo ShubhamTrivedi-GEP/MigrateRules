@@ -12,7 +12,7 @@ UPLOAD_FILE_PATH = "utils/upload/rules.json"
 
 # Define users list (Modify as needed)
 users = [
-    {"username": "leosmb.admin@gep.com", "password": "+5ndIgsP9uI", "clientName": "leosmb"},
+    {"username": "leosmb.admin@gep.com", "password": "xxxxxxxxxx", "clientName": "leosmb"},
     # {"username": "user2@example.com", "password": "password2", "clientName": "clientB"},
 ]
 
