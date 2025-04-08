@@ -104,11 +104,7 @@ for user in users:
 
         # Additional steps...
         print("Automation Completed Successfully!")
-
-        # # Step 6: Logout process
-        # WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, USER_ICON))).click()
-        # WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, LOGOUT_BUTTON))).click()
-        # print(f"Logged out successfully for: {user['username']}")
+        
     except Exception as e:
         print(f"An error occurred for {user['username']}: {e}")
 
