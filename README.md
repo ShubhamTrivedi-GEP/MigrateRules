@@ -37,6 +37,10 @@ Run the following command to install dependencies:
 pip install selenium
 ```
 
+```bash
+pip install requests
+```
+
 ### 3️⃣ Configure ChromeDriver
 
 Ensure ChromeDriver is in your system PATH. If not, place it in the project directory and specify its path in the script.
